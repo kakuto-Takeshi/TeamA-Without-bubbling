@@ -1,0 +1,185 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+::selection {
+  background: #2D2F36;
+}
+::-webkit-selection {
+  background: #2D2F36;
+}
+::-moz-selection {
+  background: #2D2F36;
+}
+body {
+  background: white;
+  font-family: 'Inter UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  overflow : hidden;
+
+}
+.page {
+  background: #e2e2e5;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+  position: absolute;
+  width: calc(100% - 40px);
+}
+@media (max-width: 767px) {
+  .page {
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}
+.container {
+  display: flex;
+  height: 320px;
+  margin: 0 auto;
+  width: 640px;
+}
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    height: 630px;
+    width: 320px;
+  }
+}
+.left {
+  background: white;
+  height: calc(100% - 40px);
+  top: 81.5px;
+  position: relative;
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .left {
+    height: 100%;
+    left: 20px;
+    width: calc(100% - 40px);
+    max-height: 270px;
+  }
+}
+.login {
+  font-size: 45px;
+  font-weight: 900;
+  margin: 60px 40px 40px;
+}
+.under{
+color: #000000;
+  text-decoration : underline;
+}
+
+.eula {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+}
+.right {
+  background: #474A59;
+  box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
+  color: #F1F1F2;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  top: 81.5px;
+}
+@media (max-width: 100%) {
+  .right {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 350px;
+  }
+}
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);;
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+.form {
+  margin: 40px;
+  position: absolute;
+   padding: 0.5em 1em;
+    margin: 2em 0;
+    border-left: solid 10px #000;
+}
+label {
+  color:  #c2c2c5;
+  display: block;
+  font-size: 20px;
+  height: 16px;
+
+}
+input {
+  background: transparent;
+  border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+  margin-top: 10px;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+#submit {
+  color: #000;
+  margin-top: 40px;
+  transition: color 300ms;
+    font-weight: bold;
+    border: solid 3px #000;/*��*/
+    border-radius: 15px;/*�p�̊ۂ�*/
+     display: inline-block;
+  text-align: center;
+  background-color: #C2C2C5;
+  border: 2px solid #C2C2C5;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  position: relative;
+
+}
+.btn-animation-02 span {
+  position: relative;
+  z-index: 1;
+}
+#submit:focus {
+  color: #f2f2f2;
+}
+#submit:active {
+  color: #d0d0d2;
+}
+.button{
+ color: #fff;
+ position: absolute;
+ font-weight: bold;
+ bottom: 0;
+ left:  0;
+ transition: color 300ms;
+
+}
+.button:focus {
+  color: #f2f2f2;
+}
+.button:active {
+  color: #d0d0d2;
+}
+
+#canvas {
+overflow : hidden;
+position: absolute;
+top: 50px; left: -400px;
+z-index: 2;
+}
+#h1{
+ font-color: 
+}

@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+}
+.pop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  background: url("video/clover.mp4") no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.eyes{
+	background-color:black;
+	 width: 100vw;
+  		height: 100vh;
+  		opacity:0.7;
+  		 z-index: 0;
+
+}
+	.ioio{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	width: 700px;
+  	height: auto;
+
+	}
+
+.oioi{
+	position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+	z-index:1;
+	text-align:center;
+	font-size:100px;
+
+font-family: 'Noto Serif JP', serif;
+font-family: 'Sawarabi Mincho', sans-serif;
+
+
+
+}
+
+
+.text-enter,.text-leave-to{
+	opacity: 0;
+}
+.text-leave,.text-enter-to{
+	opacity:1;
+
+}
+.text-enter-active,.text-leave-active{
+	transition:all 4s;
+
+	}
+	.oioioi{
+	position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+	z-index:1;
+	text-align:center;
+	font-size:100px;
+font-family: 'Allura', cursive;
+	}
+.ioio4{
+	position: absolute;
+	top: 50%;
+	right:50%;
+	width: 700px;
+  	height: auto;
+
+	}
+
+	.ioio3{
+	position: absolute;
+	top: 10%;
+	right:50%;
+	width: 700px;
+  	height: auto;
+
+	}
+
+
+
+
+
