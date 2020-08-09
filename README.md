@@ -77,10 +77,10 @@
 ## 制作資料(一部)
 
 -   画面遷移図1
-    ![画面遷移図1](https://github.com/kakuto-Takeshi/TeamA-Without-bubbling/blob/master/document/Screen-transition1.pngf)
+    ![画面遷移図1](https://github.com/kakuto-Takeshi/TeamA-Without-bubbling/blob/master/document/Screen-transition1.png)
 
 -   画面遷移図2
-    ![画面遷移図2](https://github.com/kakuto-Takeshi/TeamA-Without-bubbling/blob/master/document/Screen-transition2.pngf)
+    ![画面遷移図2](https://github.com/kakuto-Takeshi/TeamA-Without-bubbling/blob/master/document/Screen-transition2.png)
 
 -   データ遷移図
     ![データ遷移図](https://github.com/kakuto-Takeshi/TeamA-Without-bubbling/blob/master/document/new-account.png)
